@@ -1,0 +1,116 @@
+body {
+  margin: 0 auto;
+  background-color: lightblue;
+  font-family: 'Lato', sans-serif;
+}
+
+// ===================================================
+// NEW TASK FORM
+// ===================================================
+.form-section {
+  background-color: rgb(248, 133, 121);
+  box-shadow: 0px 0px 3px 2px rgb(99, 99, 99);
+  padding-top: 5px;
+  border-bottom: 1px solid black;
+}
+
+.task-form {
+  margin: auto;
+  width: 250px;
+  margin: auto;
+
+  label {
+    text-align: center;
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  
+  input {
+    width: 97%;
+    border-radius: 7px;
+  }
+
+  .form-button {
+    background-color: rgb(201, 248, 131);
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .form-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(1px);
+  }
+
+  .button:hover {
+    background-color: #3e8e41
+  }
+}
+
+// ===================================================
+// TASKLIST
+// ===================================================
+.tasklist-section {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  background-color: white;
+  box-shadow: 0px 0px 3px 2px rgb(99, 99, 99);
+  margin: auto;
+  text-align: center;
+  width: 60vw;
+  min-height: 100vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.task-card {
+  background-color: rgb(255, 216, 212);
+  border: 1px solid grey;
+  box-shadow: 0px 0px 3px 2px rgb(228, 226, 226);
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+
+  button {
+    display: none;
+  }
+}
+
+.done {
+  background-color: rgba(139, 206, 139, 0.61);
+  border: 1px solid rgba(0, 0, 0, 0.247);
+  color: rgba(0, 0, 0, 0.199);
+  text-decoration: line-through;
+
+  button {
+    display: inline-block;
+    padding: 10px;
+    background-color: salmon;
+    border-radius: 7px;
+    font-weight: bold;
+  }
+}
+
+// ===================================================
+// SCREEN-SIZE ADJUSTMENTS
+// ===================================================
+@media only screen and (max-width: 800px) {
+  .tasklist-section {
+    width: 90vw;
+  }
+
+  .task-card {
+    width: 80%;
+  }
+}
