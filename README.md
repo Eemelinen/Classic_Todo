@@ -1,6 +1,7 @@
 # ToDo
 
 ![desktop](https://user-images.githubusercontent.com/37372229/94713975-c5bf2100-034b-11eb-900f-0ab22b4015bb.png)
+![mobile](https://user-images.githubusercontent.com/37372229/94714117-f8691980-034b-11eb-8377-e7e797f1767e.png)
 
 ### UI Requirements
 * Initially, the list of todo cards should be empty.
