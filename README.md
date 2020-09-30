@@ -1,7 +1,6 @@
 # ToDo
 
 ![desktop](https://user-images.githubusercontent.com/37372229/94713975-c5bf2100-034b-11eb-900f-0ab22b4015bb.png)
-![mobile](https://user-images.githubusercontent.com/37372229/94714117-f8691980-034b-11eb-8377-e7e797f1767e.png)
 
 ### UI Requirements
 * Initially, the list of todo cards should be empty.
@@ -14,3 +13,5 @@
 ### Technical requirements
 * Keep state in a object and *NOT* in the DOM. In its simplest form, this means that the todo’s should be stored in an array. The view should be dependent on the state, not the other way around.
 * `Optional:` Persisting in [localstorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage). This is actually really simple once you have a state object: store the current state in the browser's localstorage. When the app is closed and then opened again, the state should be restored.
+
+![mobile](https://user-images.githubusercontent.com/37372229/94714117-f8691980-034b-11eb-8377-e7e797f1767e.png)
